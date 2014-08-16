@@ -4,14 +4,14 @@
 
 		// Options
 		params = $.extend({
-			elem: 'body'
+			target: 'body'
 		}, params);
 
 		// Plugin
 		this.each(function() {
 			// Variables
 			var $that = $(this),
-				$elem = $(params.elem),
+				$target = $(params.target),
 				sForumImage = 'fondForum:' + window.location.host + 'Img',
 				sForumSelect = 'fondForum:' + window.location.host + 'Select',
 				sSelecteurValue,
@@ -37,7 +37,7 @@
 
 			// Modifier le fond de l'élement
 			function changeFond(sURLimage) {
-				$elem.css({
+				$target.css({
 					'background-image': 'url("' + sURLimage + '")'
 				});
 			}
