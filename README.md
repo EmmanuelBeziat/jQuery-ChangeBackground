@@ -33,10 +33,10 @@ $('#change-background').changeBackground();
 	</thead>
 	<tbody>
 		<tr>
-			<th>offset</th>
-			<td>0</td>
-			<td>Nombre entier</td>
-			<td>Définit la valeur (en pixels) du décalage vertical à appliquer.</td>
+			<th>elem</th>
+			<td>body</td>
+			<td>Chaîne de caractères</td>
+			<td>Définit l'élément sur lequel le background sera modifié</td>
 		</tr>
 	</tbody>
 </table>
