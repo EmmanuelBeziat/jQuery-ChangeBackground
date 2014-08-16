@@ -33,7 +33,7 @@ $('#change-background').changeBackground();
 	</thead>
 	<tbody>
 		<tr>
-			<th>elem</th>
+			<th>target</th>
 			<td>body</td>
 			<td>Chaîne de caractères</td>
 			<td>Définit l'élément sur lequel le background sera modifié</td>
