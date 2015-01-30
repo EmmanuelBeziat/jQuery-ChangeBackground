@@ -1,4 +1,5 @@
 (function($, undefined) {
+	"use strict";
 
 	$.fn.changeBackground = function(params) {
 
