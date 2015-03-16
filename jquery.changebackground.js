@@ -1,4 +1,11 @@
-(function($, undefined) {
+/*!
+ * Plugin de modification de background persistant
+ * Version : 1.0
+ * Par Emmanuel "Manumanu" B. (www.emmanuelbeziat.com)
+ * https://github.com/RhooManu/jQuery-changeBackground
+ **/
+
+;(function($, undefined) {
 	"use strict";
 
 	$.fn.changeBackground = function(params) {
