@@ -3,6 +3,16 @@ changeBackground
 
 Un plugin qui permet à un utilisateur de modifier l'image de fond de n'importe quel élément, et de sauvegarder ce choix sans base de données
 
+#Installation
+
+Si vous utilisez Bower, vous pouvez l'installer directement
+
+```bash
+$ bower install jquery-changebackground
+```
+
+Sinon, il vous suffit de récupérer manuellement les fichiers sur github.
+
 #Utilisation
 
 Appelez simplement la méthode <code>changeBackground()</code> sur un objet jQuery, qui sera un élément de formulaire de type "select".
