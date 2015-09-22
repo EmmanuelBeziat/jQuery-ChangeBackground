@@ -1,0 +1,35 @@
+{
+  "name": "jQuery-ChangeBackground",
+  "version": "2.0.0",
+  "homepage": "https://github.com/EmmanuelBeziat/jQuery-ChangeBackground.git",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:EmmanuelBeziat/jQuery-ChangeBackground.git"
+  },
+  "authors": [
+    "Emmanuel B. <contact@emmanuelbeziat.com>"
+  ],
+  "description": "A light jQuery plugin to change background on elements of your choice, and save your preferences.",
+  "main": "dist/jquery.tabs.min.js",
+  "moduleType": [
+    "globals"
+  ],
+  "keywords": [
+    "jquery",
+    "scroll"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "demo",
+    "src",
+    "gulpfile.js"
+  ],
+  "dependencies": {
+    "jquery": "~1.11.2"
+  }
+}
