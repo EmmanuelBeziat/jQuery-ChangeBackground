@@ -22,13 +22,13 @@ var path = {
 		demo: './demo',
 		css: './demo/css',
 		src: './src',
-		dist: '/dist',
+		dist: './dist',
 		stylus: './src/stylus',
 		js: './src/js'
 	};
 
 /**
- * Save and minify stylus files in one style.css file
+ * Save and minify stylus files in one css file
  * Create sourcemap file
  **/
 gulp.task('stylus', function() {
